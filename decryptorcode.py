@@ -3,7 +3,7 @@
 #OOP Laboratory Exercise Number 2 Problem 2 (Decryption)
 
 # input or insert your text here
-input_str = input("Hi, Good day! Please insert your text here. ")
+input_str = input("\n\33[33mHi, Good day! Please insert your text here.\33[0m ")
 output_str = ""
 # check and change every character to their corresponding variable
 for i in range (len(input_str)):
@@ -24,4 +24,4 @@ for i in range (len(input_str)):
         output_str += "u"
     else: output_str += input_str[i]
 # print your output
-print(output_str)
+print("\n\33[1mYour decrypted message is " ,(output_str))
